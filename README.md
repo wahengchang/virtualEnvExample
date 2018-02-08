@@ -23,6 +23,13 @@ $ source virtualEnvExample/bin/activate
 $ pip install requests
 ```
 
+#### Dependency management
+```
+$ pip freeze > requirements.txt
+// pip install -r requirements.txt
+```
+
+
 
 # Finished
 
@@ -34,6 +41,11 @@ $ python main.py
 #### 6- Deactivate
 ```
 $ deactivate
+```
+
+### 7- Installing Dependency
+```
+$ pip install -r requirements.txt
 ```
 
 ## Reference
